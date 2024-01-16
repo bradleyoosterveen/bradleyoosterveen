@@ -1,0 +1,1 @@
+<div class="h-0.5 w-full bg-white rounded-full"></div>
