@@ -33,5 +33,7 @@
 		"vite": "^5.0.3"
 	},
 	"type": "module",
-	"dependencies": {}
+	"dependencies": {
+		"iconify-icon": "^1.0.8"
+	}
 }
