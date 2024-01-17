@@ -22,6 +22,6 @@
     }
 </script>
 
-<section id={id} use:handleScroll class="w-full min-h-screen flex flex-col gap-4 justify-center">
+<section id={id} use:handleScroll class="w-full min-h-dvh flex flex-col gap-4 justify-center">
     <slot/>
 </section>
