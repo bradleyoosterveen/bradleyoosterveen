@@ -1,7 +1,8 @@
 <script lang="ts">
     import Toasts from '$lib/components/Toasts.svelte';
-	import { addToast, toasts } from '$lib/stores/toasts';
     import '../app.css';
+
+    export const prerender = true;
 </script>
 
 <Toasts/>
