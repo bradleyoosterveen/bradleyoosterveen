@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { activeSection } from "$lib/stores/section";
+	import { SectionEnum, activeSection } from "$lib/stores/section";
 
-    export let id: string;
+    export let id: SectionEnum;
 
     const handleScroll = (node: any) => {
         function callback(entries: any[]) {
