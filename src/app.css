@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .clickable {
-    @apply transition-all hover:opacity-60 active:opacity-20 cursor-pointer hover:pl-2 hover:-mr-2;
+    @apply cursor-pointer;
 }
 
 *::-webkit-scrollbar {
