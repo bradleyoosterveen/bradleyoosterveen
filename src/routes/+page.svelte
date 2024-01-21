@@ -4,7 +4,7 @@
 	import { sections } from "$lib/stores/section";
 </script>
 
-<div class="flex flex-col lg:flex-row gap-8 items-center max-h-screen w-screen">
+<div class="flex flex-col lg:flex-row gap-2 items-center max-h-screen w-screen">
     <Navigation/>
 
     <main class="w-full max-h-screen overflow-y-auto bg-primary px-8 lg:border-l-[1px] border-accent">

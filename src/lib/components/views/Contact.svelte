@@ -25,6 +25,6 @@
 
     <button on:click={copyEmail} class="clickable flex gap-2 items-center">
         <span>Copy my e-mail address</span>
-        <iconify-icon icon="carbon:copy"/>
+        <iconify-icon icon="tabler:copy"/>
     </button>
 </div>
