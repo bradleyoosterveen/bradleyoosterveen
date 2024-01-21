@@ -16,13 +16,15 @@
             <Introduction/>
         </Section>
 
-        <Section id={SectionEnum.Experience}>
-            <Experience/>
-        </Section>
+        {#if import.meta.env.DEV}
+            <Section id={SectionEnum.Experience}>
+                <Experience/>
+            </Section>
 
-        <Section id={SectionEnum.Projects}>
-            <Projects/>
-        </Section>
+            <Section id={SectionEnum.Projects}>
+                <Projects/>
+            </Section>
+        {/if}
 
         <Section id={SectionEnum.Contact}>
             <Contact/>
