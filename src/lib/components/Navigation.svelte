@@ -26,7 +26,7 @@
     }
 </script>
 
-<div class="bg-stone-950 lg:relative absolute top-0 left-0 right-0 px-8 py-4 flex lg:flex-col gap-4 lg:w-64 flex-wrap shadow-stone-950 shadow-lg">
+<div class="bg-secondary lg:relative absolute top-0 left-0 right-0 px-8 py-4 flex lg:flex-col gap-4 lg:w-64 flex-wrap border-b-[1px] lg:border-b-0 border-accent">
     {#each sections as section}
         {#if import.meta.env.DEV}
             <NavigationItem on:click={() => onNavClick(section)} navTarget={section.section} isActive={activeSectionValue === section}>{section.section}</NavigationItem>

@@ -1,17 +1,13 @@
 <script lang="ts">
 	import Section from "$lib/components/Section.svelte";
-	import Introduction from "$lib/components/views/Introduction.svelte";
-	import Experience from "$lib/components/views/Experience.svelte";
 	import Navigation from "$lib/components/Navigation.svelte";
-	import Projects from "$lib/components/views/Projects.svelte";
-	import { SectionEnum, sections } from "$lib/stores/section";
-	import Contact from "$lib/components/views/Contact.svelte";
+	import { sections } from "$lib/stores/section";
 </script>
 
-<div class="flex flex-col lg:flex-row px-8 py-4 gap-8 justify-center items-center max-h-screen w-screen">
+<div class="flex flex-col lg:flex-row lg:px-8 gap-8 justify-center items-center max-h-screen w-screen">
     <Navigation/>
 
-    <main class="lg:w-[960px] max-h-screen overflow-y-auto">
+    <main class="lg:w-[980px] max-h-screen overflow-y-auto bg-primary px-8 lg:border-x-[1px] border-accent">
         {#each sections as section}
             <Section id={section.section}>
                 <svelte:component this={section.component}/>
