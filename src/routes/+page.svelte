@@ -4,7 +4,7 @@
 	import Experience from "$lib/components/views/Experience.svelte";
 	import Navigation from "$lib/components/Navigation.svelte";
 	import Projects from "$lib/components/views/Projects.svelte";
-	import { SectionEnum } from "$lib/stores/section";
+	import { SectionEnum, sections } from "$lib/stores/section";
 	import Contact from "$lib/components/views/Contact.svelte";
 </script>
 
@@ -12,22 +12,10 @@
     <Navigation/>
 
     <main class="lg:w-[960px] max-h-screen overflow-y-auto">
-        <Section id={SectionEnum.Introduction}>
-            <Introduction/>
-        </Section>
-
-        {#if import.meta.env.DEV}
-            <Section id={SectionEnum.Experience}>
-                <Experience/>
+        {#each sections as section}
+            <Section id={section.section}>
+                <svelte:component this={section.component}/>
             </Section>
-
-            <Section id={SectionEnum.Projects}>
-                <Projects/>
-            </Section>
-        {/if}
-
-        <Section id={SectionEnum.Contact}>
-            <Contact/>
-        </Section>
+        {/each}
     </main>
 </div>

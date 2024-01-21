@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { SectionEnum, activeSection } from "$lib/stores/section";
+	import { SectionEnum, activeSection, sections } from "$lib/stores/section";
 
     export let id: SectionEnum;
 
@@ -7,8 +7,10 @@
         function callback(entries: any[]) {
             const entry = entries.find(entry => entry.isIntersecting);
 
-            if (entry) {
-                activeSection.set(entry.target.id);
+            const section = sections.find(x => x.section === id);
+
+            if (entry && section) {
+                activeSection.set(section);
             }
         };
 
