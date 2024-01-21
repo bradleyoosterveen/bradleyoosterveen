@@ -37,9 +37,7 @@
     </button>
     <div class={`${$isOpen ? "opacity-100 max-h-dvh" : "opacity-0 max-h-0 lg:max-h-dvh lg:opacity-100"} transition-all flex flex-col gap-4 overflow-hidden`}>
         {#each sections as section}
-            {#if (import.meta.env.PROD && section.showProd) || import.meta.env.DEV}
-                <NavigationItem on:click={() => onNavClick(section)} navTarget={section.section} isActive={activeSectionValue === section}>{section.section}</NavigationItem>
-            {/if}
+            <NavigationItem on:click={() => onNavClick(section)} section={section} isActive={activeSectionValue === section}>{section.section}</NavigationItem>
         {/each}
     </div>
 </div>

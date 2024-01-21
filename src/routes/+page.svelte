@@ -9,9 +9,11 @@
 
     <main class="w-full max-h-screen overflow-y-auto bg-primary px-8 lg:border-l-[1px] border-accent">
         {#each sections as section}
-            <Section id={section.section}>
-                <svelte:component this={section.component}/>
-            </Section>
+            {#if (import.meta.env.PROD && section.showProd) || import.meta.env.DEV}
+                <Section id={section.section}>
+                    <svelte:component this={section.component}/>
+                </Section>
+            {/if}
         {/each}
     </main>
 </div>
