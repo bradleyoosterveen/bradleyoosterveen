@@ -1,1 +1,1 @@
-<div class="h-0.5 w-full bg-white rounded-full"></div>
+<div class="h-1 w-full bg-green rounded-full"></div>

@@ -1,21 +1,25 @@
 <script lang="ts">
-	import { SectionEnum, activeSection, sections } from "$lib/stores/section";
+	import { activeSection, sections, type Section } from "$lib/stores/section";
+	import { writable } from "svelte/store";
 
-    export let id: SectionEnum;
+    export let section: Section;
 
     const handleScroll = (node: any) => {
         function callback(entries: any[]) {
-            const entry = entries.find(entry => entry.isIntersecting);
+            if (!section) return;
 
-            const section = sections.find(x => x.section === id);
+            if (!entries[0].isIntersecting)
+                return;
 
-            if (entry && section) {
+            const s: Section | undefined = sections.find(x => x.section === section.section);
+
+            if (s) {
                 activeSection.set(section);
             }
         };
 
         const observer = new IntersectionObserver(callback, {
-            threshold: 0.6,
+            threshold: 0.1,
         });
 
         observer.observe(node);
@@ -24,6 +28,6 @@
     }
 </script>
 
-<section id={id} use:handleScroll class="min-h-dvh flex flex-col gap-4 justify-center">
+<section id={section.section} use:handleScroll class={`px-4 sm:px-8 py-4 min-h-dvh flex flex-col overflow-y-auto`}>
     <slot/>
 </section>

@@ -1,0 +1,1 @@
+<div class="size-2 bg-green rounded-full"></div>
