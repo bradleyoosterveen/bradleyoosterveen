@@ -1,8 +1,6 @@
 <script lang="ts">
     import Toasts from '$lib/components/Toasts.svelte';
     import '../app.css';
-
-    export const prerender = true;
 </script>
 
 <Toasts/>
