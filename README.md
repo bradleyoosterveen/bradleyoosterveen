@@ -15,7 +15,4 @@
   - Working as a Junior Software Engineer at CoCreate, focussing on Flutter.
 </pre>
 
-<p>
-  [Personal website](https://bradleyoosterveen.nl/)
-  [LinkedIn](https://www.linkedin.com/in/bradley-oosterveen-b6552a177/)
-</p>
+[Personal website](https://bradleyoosterveen.nl/) - [LinkedIn](https://www.linkedin.com/in/bradley-oosterveen-b6552a177/)
