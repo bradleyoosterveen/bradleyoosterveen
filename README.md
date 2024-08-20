@@ -19,8 +19,10 @@
 ### Active personal projects
 
 <pre>
-- Vyberr: A user-friendly web tool designed to simplify the social event planning process, built with Angular and .NET.
-- Unnamed: A semi-AFK mobile game where you catch Pokémon by walking in real life, built with Flutter.
+- Vyberr: A user-friendly web tool designed to simplify the social event planning process.
+  Build with .NET and Angular.
+- Unnamed: A semi-AFK mobile game where you catch Pokémon by walking in real life.
+  Build with Flutter.
 </pre>
 
 [Personal website](https://bradleyoosterveen.nl/) - [LinkedIn](https://www.linkedin.com/in/bradley-oosterveen-b6552a177/)
