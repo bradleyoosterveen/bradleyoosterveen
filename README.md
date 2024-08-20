@@ -8,9 +8,19 @@
   <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=Docker&logoColor=white"/>
 </p>
 
+### About me
+
 <pre>
-  - Bachelor's degree in software engineering.
-  - Working as a Junior Software Engineer at CoCreate, focussing on Flutter.
+- Bachelor's degree in software engineering.
+- Junior Software Engineer at CoCreate.
+- Current focus is on mobile app development with Flutter.
+</pre>
+
+### Active personal projects
+
+<pre>
+- Vyberr: A user-friendly web tool designed to simplify the social event planning process, built with Angular and .NET.
+- Unnamed: A semi-AFK mobile game where you catch Pokémon by walking in real life, built with Flutter.
 </pre>
 
 [Personal website](https://bradleyoosterveen.nl/) - [LinkedIn](https://www.linkedin.com/in/bradley-oosterveen-b6552a177/)
