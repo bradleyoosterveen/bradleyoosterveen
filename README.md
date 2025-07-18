@@ -9,17 +9,16 @@
 
 <pre>
 - Bachelor's degree in software engineering.
-- Junior Software Engineer at CoCreate.
-- Current focus is on mobile app development with Flutter.
+- Flutter Developer at Amdax.
 </pre>
 
 ### Active personal projects
 
 <pre>
 - Vyberr: A user-friendly web tool designed to simplify the social event planning process.
-  Build with .NET and Angular.
+  Built with .NET, Angular and Flutter.
 - Unnamed: A semi-AFK mobile game where you catch Pokémon by walking in real life.
-  Build with Flutter.
+  Built with Flutter.
 </pre>
 
 [Personal website](https://bradleyoosterveen.nl/) - [LinkedIn](https://www.linkedin.com/in/bradley-oosterveen-b6552a177/)
