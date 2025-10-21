@@ -15,10 +15,8 @@
 ### Active personal projects
 
 <pre>
-- Vyberr: A user-friendly web tool designed to simplify the social event planning process.
-  Built with .NET, Angular and Flutter.
-- Unnamed: A semi-AFK mobile game where you catch Pokémon by walking in real life.
-  Built with Flutter.
+- Hoot: A user-friendly web tool designed to simplify the social event planning process. Built with .NET and Flutter.
+- WikWok: Doomscroll your way to endless knowledge. Built with Flutter.
 </pre>
 
 [Personal website](https://bradleyoosterveen.nl/) - [LinkedIn](https://www.linkedin.com/in/bradley-oosterveen-b6552a177/)
